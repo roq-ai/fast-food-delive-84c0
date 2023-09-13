@@ -1,0 +1,2572 @@
+[
+  {
+    "order": [
+      {
+        "id": "47fe84a2-c88c-4416-acec-8e0887d061fc",
+        "order_date": "2023-09-12T23:11:07.478Z",
+        "delivery_date": "2023-09-12T08:06:54.621Z",
+        "status": "Pending",
+        "total_price": 63780,
+        "created_at": "2023-09-12T07:42:33.059Z",
+        "updated_at": "2023-09-13T03:47:44.184Z",
+        "coupen": "DISCOUNT10",
+        "delivery_charges": "$5.99",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "36130e97-39fb-400b-9ec7-d3bb3bb67b2a",
+        "order_date": "2023-09-12T10:22:08.177Z",
+        "delivery_date": "2023-09-13T05:38:59.435Z",
+        "status": "Processing",
+        "total_price": 61132,
+        "created_at": "2023-09-12T23:16:39.675Z",
+        "updated_at": "2023-09-12T14:50:51.492Z",
+        "coupen": "SAVEMORE20",
+        "delivery_charges": "$7.99",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "7dc9e59c-93b4-442c-b992-2fd8779cab2d",
+        "order_date": "2023-09-12T11:07:19.965Z",
+        "delivery_date": "2023-09-13T01:25:00.603Z",
+        "status": "Shipped",
+        "total_price": 31152,
+        "created_at": "2023-09-12T12:11:09.824Z",
+        "updated_at": "2023-09-12T21:10:52.498Z",
+        "coupen": "FREESHIP",
+        "delivery_charges": "$9.99",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e6157774-c9a2-447c-ae4f-c86f766fa9d2",
+        "order_date": "2023-09-13T02:21:28.911Z",
+        "delivery_date": "2023-09-13T03:29:52.133Z",
+        "status": "Delivered",
+        "total_price": 38973,
+        "created_at": "2023-09-12T09:28:19.114Z",
+        "updated_at": "2023-09-12T12:03:45.620Z",
+        "coupen": "SUMMERSALE",
+        "delivery_charges": "$4.99",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "417cb9c3-a05e-47ad-8c6b-e3aea97f68bc",
+        "order_date": "2023-09-13T02:09:15.333Z",
+        "delivery_date": "2023-09-12T12:08:39.429Z",
+        "status": "Cancelled",
+        "total_price": 65991,
+        "created_at": "2023-09-12T09:32:39.373Z",
+        "updated_at": "2023-09-12T12:04:25.398Z",
+        "coupen": "NEWCUSTOMER",
+        "delivery_charges": "$6.99",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "menu_item": [
+      {
+        "id": "376f8ac4-573f-43c7-9b5b-ad0b7fb2273d",
+        "name": "Margherita Pizza",
+        "description": "Freshly baked pizza with tomato and mozzarella",
+        "price": 73203,
+        "created_at": "2023-09-12T20:53:35.926Z",
+        "updated_at": "2023-09-12T21:10:48.406Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0848a9da-94fd-4949-8c51-aa0dc9e32aac",
+        "name": "Kung Pao Chicken",
+        "description": "Spicy chicken stir-fry with peanuts and vegetables",
+        "price": 6469,
+        "created_at": "2023-09-13T04:56:00.684Z",
+        "updated_at": "2023-09-12T13:35:37.272Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0139081f-1c9d-4a5d-9774-332e02efd0d7",
+        "name": "Filet Mignon",
+        "description": "Tender beef steak served with mashed potatoes and vegetables",
+        "price": 12906,
+        "created_at": "2023-09-12T19:29:14.253Z",
+        "updated_at": "2023-09-12T23:31:13.282Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "409efbda-9261-4a0e-bed7-e28ffb9976ad",
+        "name": "Tacos al Pastor",
+        "description": "Traditional Mexican pork tacos with pineapple and cilantro",
+        "price": 9237,
+        "created_at": "2023-09-13T03:15:54.519Z",
+        "updated_at": "2023-09-12T19:21:34.358Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "caf88bc3-ff13-4674-9d9c-d3bdc8c330fd",
+        "name": "Grilled Salmon",
+        "description": "Grilled salmon fillet with lemon butter sauce and roasted vegetables",
+        "price": 52319,
+        "created_at": "2023-09-12T14:06:52.156Z",
+        "updated_at": "2023-09-12T20:47:10.788Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "29fe3ad6-6354-426c-9a80-b4b5e0546d56",
+        "quantity": 71788,
+        "price": 57964,
+        "created_at": "2023-09-13T00:08:47.164Z",
+        "updated_at": "2023-09-13T01:07:17.993Z",
+        "menu_item_id": "0139081f-1c9d-4a5d-9774-332e02efd0d7",
+        "order_id": "e6157774-c9a2-447c-ae4f-c86f766fa9d2"
+      },
+      {
+        "id": "0ec38c6d-4e32-4cd4-a740-a3cd29c528f9",
+        "quantity": 54997,
+        "price": 51536,
+        "created_at": "2023-09-12T22:37:45.200Z",
+        "updated_at": "2023-09-12T12:50:59.749Z",
+        "menu_item_id": "0848a9da-94fd-4949-8c51-aa0dc9e32aac",
+        "order_id": "e6157774-c9a2-447c-ae4f-c86f766fa9d2"
+      },
+      {
+        "id": "a8487187-e449-4fce-939c-b7b08ee03ac5",
+        "quantity": 90035,
+        "price": 36835,
+        "created_at": "2023-09-12T22:05:00.271Z",
+        "updated_at": "2023-09-13T03:09:04.379Z",
+        "menu_item_id": "caf88bc3-ff13-4674-9d9c-d3bdc8c330fd",
+        "order_id": "417cb9c3-a05e-47ad-8c6b-e3aea97f68bc"
+      },
+      {
+        "id": "92953a70-463e-4aa1-bb5e-ba8a70532534",
+        "quantity": 56451,
+        "price": 43811,
+        "created_at": "2023-09-12T19:53:22.605Z",
+        "updated_at": "2023-09-12T11:17:39.979Z",
+        "menu_item_id": "0139081f-1c9d-4a5d-9774-332e02efd0d7",
+        "order_id": "417cb9c3-a05e-47ad-8c6b-e3aea97f68bc"
+      },
+      {
+        "id": "c7ee2c2e-3b3c-4474-838d-63f5d8cf64ab",
+        "quantity": 69455,
+        "price": 91548,
+        "created_at": "2023-09-13T04:20:22.542Z",
+        "updated_at": "2023-09-13T03:25:56.737Z",
+        "menu_item_id": "376f8ac4-573f-43c7-9b5b-ad0b7fb2273d",
+        "order_id": "7dc9e59c-93b4-442c-b992-2fd8779cab2d"
+      }
+    ],
+    "delivery_personnel": [
+      {
+        "id": "fd3eae02-24ea-4c00-80b3-bd79607de44b",
+        "vehicle_type": "Car",
+        "license_number": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-13T06:40:28.137Z",
+        "updated_at": "2023-09-12T15:56:26.803Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "349ed2c0-356a-4eda-9123-495816609716",
+        "vehicle_type": "Motorcycle",
+        "license_number": "DEF456",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-12T23:23:08.910Z",
+        "updated_at": "2023-09-12T16:18:45.071Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82983a17-c139-4c1a-985a-42c6240fb0a0",
+        "vehicle_type": "Bicycle",
+        "license_number": "GHI789",
+        "availability_status": "On Break",
+        "created_at": "2023-09-12T13:23:23.234Z",
+        "updated_at": "2023-09-12T11:37:15.606Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ac36939-c304-4bd3-963e-f3d10fe50759",
+        "vehicle_type": "Scooter",
+        "license_number": "JKL012",
+        "availability_status": "On Delivery",
+        "created_at": "2023-09-12T17:48:55.659Z",
+        "updated_at": "2023-09-12T23:38:05.719Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4693c97d-f8fd-4e15-9e3a-5f4696c76bf5",
+        "vehicle_type": "Van",
+        "license_number": "MNO345",
+        "availability_status": "Offline",
+        "created_at": "2023-09-13T00:53:01.483Z",
+        "updated_at": "2023-09-12T08:36:53.962Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7a73cdae-ccf4-4261-88c9-be66a3cada81",
+        "email": "Marilyne.Casper27@hotmail.com",
+        "firstName": "Jace",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80659028",
+        "tenantId": null
+      },
+      {
+        "reference": "7d3cf951-097d-40ed-8806-6bb31ebcbd67",
+        "email": "Amparo.Lubowitz@hotmail.com",
+        "firstName": "Patrick",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/266.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1ea2e48a-fd71-469c-a925-1c35d56d5516",
+        "email": "Dalton_Beier57@hotmail.com",
+        "firstName": "Lora",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20346565",
+        "tenantId": null
+      },
+      {
+        "reference": "d9641d9d-9c78-430f-bb05-2d4cc7ce4955",
+        "email": "Micaela.Hirthe97@yahoo.com",
+        "firstName": "Randi",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40456044",
+        "tenantId": null
+      },
+      {
+        "reference": "770e4bbf-8528-467a-8c4e-a732303e6e04",
+        "email": "Nichole_Tillman@hotmail.com",
+        "firstName": "June",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/935.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "b250df6b-277f-4e22-9e8c-259fd44111b2",
+        "order_date": "2023-09-12T10:28:13.472Z",
+        "delivery_date": "2023-09-12T13:29:43.657Z",
+        "status": "Pending",
+        "total_price": 17518,
+        "created_at": "2023-09-12T19:03:56.967Z",
+        "updated_at": "2023-09-12T09:47:27.927Z",
+        "coupen": "SUMMER10",
+        "delivery_charges": "$5.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "cc13c1ca-292d-4c57-848b-b600a36a12fa",
+        "order_date": "2023-09-12T07:51:48.723Z",
+        "delivery_date": "2023-09-12T10:34:22.917Z",
+        "status": "Processing",
+        "total_price": 2862,
+        "created_at": "2023-09-12T07:05:00.924Z",
+        "updated_at": "2023-09-12T18:29:08.161Z",
+        "coupen": "FREESHIP",
+        "delivery_charges": "$3.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "58a55b91-2e5b-4ecb-9704-7c7115e6d258",
+        "order_date": "2023-09-12T15:44:56.324Z",
+        "delivery_date": "2023-09-12T09:44:28.968Z",
+        "status": "Shipped",
+        "total_price": 95388,
+        "created_at": "2023-09-12T09:07:28.482Z",
+        "updated_at": "2023-09-12T10:57:59.071Z",
+        "coupen": "SAVE20",
+        "delivery_charges": "$4.99",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "97706f75-e2dc-4ee9-baea-cc524b0e32b3",
+        "order_date": "2023-09-12T08:29:01.141Z",
+        "delivery_date": "2023-09-12T22:02:01.959Z",
+        "status": "Delivered",
+        "total_price": 52496,
+        "created_at": "2023-09-12T22:22:16.841Z",
+        "updated_at": "2023-09-12T13:31:53.116Z",
+        "coupen": "FIRSTORDER",
+        "delivery_charges": "$2.99",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d910cd39-f1ab-45f0-8a48-e376a5f3c594",
+        "order_date": "2023-09-13T04:22:01.556Z",
+        "delivery_date": "2023-09-12T19:00:28.140Z",
+        "status": "Cancelled",
+        "total_price": 93121,
+        "created_at": "2023-09-12T14:08:15.106Z",
+        "updated_at": "2023-09-12T12:39:25.782Z",
+        "coupen": "LOYALTY50",
+        "delivery_charges": "$6.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "menu_item": [
+      {
+        "id": "82614e7d-866c-4898-90a9-4cbea955056d",
+        "name": "Margherita Pizza",
+        "description": "Fresh tomatoes, mozzarella, and basil on a thin crust",
+        "price": 58111,
+        "created_at": "2023-09-12T08:56:48.283Z",
+        "updated_at": "2023-09-12T18:20:54.457Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "bd4ddc90-5afb-4260-b42e-351082c41d83",
+        "name": "Chicken Enchiladas",
+        "description": "Tortillas filled with seasoned chicken and topped with sauce and cheese",
+        "price": 92409,
+        "created_at": "2023-09-13T02:06:44.414Z",
+        "updated_at": "2023-09-12T23:12:24.272Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "6b5dd3fe-2c65-4455-93a6-17977b084629",
+        "name": "Grilled Salmon",
+        "description": "Fresh salmon fillet grilled to perfection, served with vegetables",
+        "price": 35524,
+        "created_at": "2023-09-13T03:21:06.703Z",
+        "updated_at": "2023-09-12T10:56:03.647Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "798359b2-8176-43f6-9215-e4e4ada3a6f5",
+        "name": "Butter Chicken",
+        "description": "Tender chicken cooked in a rich tomato and butter sauce, served with rice",
+        "price": 1491,
+        "created_at": "2023-09-12T09:50:34.378Z",
+        "updated_at": "2023-09-12T20:43:51.942Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d9075693-06dc-4306-bf62-c9e185aedb30",
+        "name": "Classic Cheeseburger",
+        "description": "Juicy beef patty with melted cheese, lettuce, tomato, and pickles",
+        "price": 13451,
+        "created_at": "2023-09-12T15:22:52.789Z",
+        "updated_at": "2023-09-12T20:44:56.590Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "4bd52ed5-3037-408a-8c6c-a4300f476071",
+        "quantity": 80565,
+        "price": 4029,
+        "created_at": "2023-09-13T00:05:17.131Z",
+        "updated_at": "2023-09-12T14:33:56.230Z",
+        "menu_item_id": "6b5dd3fe-2c65-4455-93a6-17977b084629",
+        "order_id": "58a55b91-2e5b-4ecb-9704-7c7115e6d258"
+      },
+      {
+        "id": "3e906df5-f7a4-402d-a25a-ec62bf2ff904",
+        "quantity": 43008,
+        "price": 35695,
+        "created_at": "2023-09-13T00:49:01.320Z",
+        "updated_at": "2023-09-12T21:14:30.404Z",
+        "menu_item_id": "d9075693-06dc-4306-bf62-c9e185aedb30",
+        "order_id": "b250df6b-277f-4e22-9e8c-259fd44111b2"
+      },
+      {
+        "id": "f837cd5b-233d-4896-a1c5-0c250d43dcdd",
+        "quantity": 97767,
+        "price": 94229,
+        "created_at": "2023-09-12T20:42:28.626Z",
+        "updated_at": "2023-09-12T09:09:42.958Z",
+        "menu_item_id": "d9075693-06dc-4306-bf62-c9e185aedb30",
+        "order_id": "97706f75-e2dc-4ee9-baea-cc524b0e32b3"
+      },
+      {
+        "id": "129f1132-b177-4210-9d35-ed95c0facf5f",
+        "quantity": 27437,
+        "price": 53450,
+        "created_at": "2023-09-13T05:34:43.676Z",
+        "updated_at": "2023-09-13T00:09:39.022Z",
+        "menu_item_id": "bd4ddc90-5afb-4260-b42e-351082c41d83",
+        "order_id": "b250df6b-277f-4e22-9e8c-259fd44111b2"
+      },
+      {
+        "id": "902e2979-bfb3-47cd-83eb-41c58ca3d337",
+        "quantity": 88765,
+        "price": 85770,
+        "created_at": "2023-09-13T00:39:08.837Z",
+        "updated_at": "2023-09-12T09:36:14.153Z",
+        "menu_item_id": "d9075693-06dc-4306-bf62-c9e185aedb30",
+        "order_id": "58a55b91-2e5b-4ecb-9704-7c7115e6d258"
+      }
+    ],
+    "delivery_personnel": [
+      {
+        "id": "af3f8e43-74a0-4e18-b792-45c072116b74",
+        "vehicle_type": "Car",
+        "license_number": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-12T07:57:50.786Z",
+        "updated_at": "2023-09-12T06:58:27.772Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52e7c895-8847-4b30-8707-87d45092e19f",
+        "vehicle_type": "Motorcycle",
+        "license_number": "DEF456",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-12T21:20:03.853Z",
+        "updated_at": "2023-09-12T21:25:11.601Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e52647bb-35f6-4097-8d31-2a4df5c1aa4f",
+        "vehicle_type": "Bicycle",
+        "license_number": "GHI789",
+        "availability_status": "On Break",
+        "created_at": "2023-09-13T01:56:00.306Z",
+        "updated_at": "2023-09-12T07:56:30.812Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9a95598-e14e-4172-bf8d-ada43fead10d",
+        "vehicle_type": "Scooter",
+        "license_number": "JKL012",
+        "availability_status": "Delivering",
+        "created_at": "2023-09-12T19:16:37.066Z",
+        "updated_at": "2023-09-13T04:12:33.113Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ea9449e-d40a-423f-a4be-4e8e02c93851",
+        "vehicle_type": "Van",
+        "license_number": "MNO345",
+        "availability_status": "Offline",
+        "created_at": "2023-09-12T14:32:32.731Z",
+        "updated_at": "2023-09-13T02:16:25.626Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "859a8e28-e7eb-41d8-9333-211647b496ee",
+        "email": "Opal_Feest@hotmail.com",
+        "firstName": "Kara",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/539.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "66bf326c-eb27-41c0-8789-bcf775037d20",
+        "email": "Deon_Sporer62@gmail.com",
+        "firstName": "Izabella",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75810821",
+        "tenantId": null
+      },
+      {
+        "reference": "83f61474-9a61-43f8-9016-1b517071df90",
+        "email": "Felipe.Larson58@yahoo.com",
+        "firstName": "Gabe",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6673543",
+        "tenantId": null
+      },
+      {
+        "reference": "9907e14c-a8b6-4a4a-a741-5fda40512cb7",
+        "email": "Madalyn.Barton@hotmail.com",
+        "firstName": "Zakary",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87731268",
+        "tenantId": null
+      },
+      {
+        "reference": "08bbca18-2580-47a1-94ca-b9a9b53c6b65",
+        "email": "Jorge_Schroeder@yahoo.com",
+        "firstName": "Paige",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/343.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "3a70e2c9-f9ba-463a-83a2-9390fcf90442",
+        "order_date": "2023-09-13T06:45:11.380Z",
+        "delivery_date": "2023-09-13T02:28:38.551Z",
+        "status": "Pending",
+        "total_price": 23983,
+        "created_at": "2023-09-12T20:40:22.051Z",
+        "updated_at": "2023-09-13T06:52:31.543Z",
+        "coupen": "DISCOUNT10",
+        "delivery_charges": "$5.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3daf1b08-d6d9-4410-aafb-a1875f964c44",
+        "order_date": "2023-09-13T01:16:46.189Z",
+        "delivery_date": "2023-09-12T18:19:26.214Z",
+        "status": "Processing",
+        "total_price": 60849,
+        "created_at": "2023-09-12T07:29:23.080Z",
+        "updated_at": "2023-09-12T13:58:04.068Z",
+        "coupen": "FREESHIP",
+        "delivery_charges": "$3.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ae09c814-752a-4fc6-b087-8a62dd4c3f53",
+        "order_date": "2023-09-12T13:43:59.654Z",
+        "delivery_date": "2023-09-12T19:29:16.571Z",
+        "status": "Out for Delivery",
+        "total_price": 44276,
+        "created_at": "2023-09-12T19:42:40.189Z",
+        "updated_at": "2023-09-13T01:16:00.981Z",
+        "coupen": "SAVE20",
+        "delivery_charges": "$4.75",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5f61f3de-a23f-441c-b90b-f07cdd5cd351",
+        "order_date": "2023-09-13T03:13:12.173Z",
+        "delivery_date": "2023-09-12T13:14:14.421Z",
+        "status": "Delivered",
+        "total_price": 62377,
+        "created_at": "2023-09-13T02:15:35.719Z",
+        "updated_at": "2023-09-12T22:30:30.235Z",
+        "coupen": "SUMMER25",
+        "delivery_charges": "$2.99",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "07a6f1f0-80de-4bc1-b235-dfc6015fd633",
+        "order_date": "2023-09-13T02:19:18.558Z",
+        "delivery_date": "2023-09-13T03:18:16.559Z",
+        "status": "Cancelled",
+        "total_price": 97485,
+        "created_at": "2023-09-12T22:04:17.100Z",
+        "updated_at": "2023-09-12T21:12:57.191Z",
+        "coupen": "FIRSTORDER",
+        "delivery_charges": "$6.25",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "menu_item": [
+      {
+        "id": "5b276104-b9fd-4cbe-a408-08c1273d6d6e",
+        "name": "Margherita Pizza",
+        "description": "Fresh tomatoes, mozzarella, basil",
+        "price": 92286,
+        "created_at": "2023-09-12T07:11:28.854Z",
+        "updated_at": "2023-09-13T06:44:51.861Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a0c1874c-00ee-4b71-95a2-f3687af0fb49",
+        "name": "Butter Chicken",
+        "description": "Tender chicken in creamy tomato sauce",
+        "price": 59372,
+        "created_at": "2023-09-12T12:59:22.391Z",
+        "updated_at": "2023-09-12T22:13:17.434Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f78de56a-75c5-4a27-870f-dacc86ca3afb",
+        "name": "California Roll",
+        "description": "Fresh fish and avocado wrapped in seaweed",
+        "price": 5849,
+        "created_at": "2023-09-12T12:08:47.522Z",
+        "updated_at": "2023-09-13T00:54:51.074Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "9fa351c0-903a-450b-bddd-f5822418fdc1",
+        "name": "Tacos al Pastor",
+        "description": "Marinated pork with pineapple and onions",
+        "price": 73511,
+        "created_at": "2023-09-12T07:34:51.440Z",
+        "updated_at": "2023-09-12T15:12:54.675Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e3270a4d-60de-4292-a85f-f4b5a13dedeb",
+        "name": "Cheeseburger",
+        "description": "Juicy beef patty with melted cheese",
+        "price": 12103,
+        "created_at": "2023-09-12T22:52:24.649Z",
+        "updated_at": "2023-09-13T04:53:00.239Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "f5e17343-3eae-4e66-a475-8eb976e4741e",
+        "quantity": 94492,
+        "price": 87633,
+        "created_at": "2023-09-12T14:33:21.258Z",
+        "updated_at": "2023-09-12T20:36:38.900Z",
+        "menu_item_id": "9fa351c0-903a-450b-bddd-f5822418fdc1",
+        "order_id": "3a70e2c9-f9ba-463a-83a2-9390fcf90442"
+      },
+      {
+        "id": "ccd465dc-b9a3-4b34-9c07-9e113d71e878",
+        "quantity": 19739,
+        "price": 32073,
+        "created_at": "2023-09-12T17:57:31.066Z",
+        "updated_at": "2023-09-12T20:13:19.602Z",
+        "menu_item_id": "9fa351c0-903a-450b-bddd-f5822418fdc1",
+        "order_id": "3daf1b08-d6d9-4410-aafb-a1875f964c44"
+      },
+      {
+        "id": "23af6598-0a6b-4178-88cd-21a11e18a6bc",
+        "quantity": 60714,
+        "price": 26111,
+        "created_at": "2023-09-12T12:06:01.010Z",
+        "updated_at": "2023-09-13T05:38:59.631Z",
+        "menu_item_id": "a0c1874c-00ee-4b71-95a2-f3687af0fb49",
+        "order_id": "07a6f1f0-80de-4bc1-b235-dfc6015fd633"
+      },
+      {
+        "id": "8d637499-6a73-42ca-94a5-a60d92a2ef6f",
+        "quantity": 70837,
+        "price": 85336,
+        "created_at": "2023-09-13T03:33:54.184Z",
+        "updated_at": "2023-09-13T00:22:08.323Z",
+        "menu_item_id": "f78de56a-75c5-4a27-870f-dacc86ca3afb",
+        "order_id": "5f61f3de-a23f-441c-b90b-f07cdd5cd351"
+      },
+      {
+        "id": "25c9b105-04be-427f-8b10-e77bb9d0257c",
+        "quantity": 78101,
+        "price": 85913,
+        "created_at": "2023-09-13T03:50:38.380Z",
+        "updated_at": "2023-09-12T23:48:15.062Z",
+        "menu_item_id": "a0c1874c-00ee-4b71-95a2-f3687af0fb49",
+        "order_id": "07a6f1f0-80de-4bc1-b235-dfc6015fd633"
+      }
+    ],
+    "delivery_personnel": [
+      {
+        "id": "6b0f5baa-8d6f-44f6-a38b-71d66f29f507",
+        "vehicle_type": "Car",
+        "license_number": "AB12345",
+        "availability_status": "Available",
+        "created_at": "2023-09-12T17:48:13.875Z",
+        "updated_at": "2023-09-12T13:55:06.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fc79269-b3cf-4a80-81ef-c303cad72ea4",
+        "vehicle_type": "Motorcycle",
+        "license_number": "CD67890",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-12T16:55:13.909Z",
+        "updated_at": "2023-09-13T03:44:30.663Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7dcd0f4a-6d07-44fb-9888-4d25a4c84dd9",
+        "vehicle_type": "Bicycle",
+        "license_number": "EF54321",
+        "availability_status": "On Break",
+        "created_at": "2023-09-13T01:40:00.145Z",
+        "updated_at": "2023-09-12T07:41:01.068Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "342a7ff7-1bbb-402f-9d4a-fe2186eda2fc",
+        "vehicle_type": "Scooter",
+        "license_number": "GH09876",
+        "availability_status": "On Delivery",
+        "created_at": "2023-09-12T08:19:44.453Z",
+        "updated_at": "2023-09-12T16:29:24.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7f0acce-3961-4034-a84b-31e27c9f3668",
+        "vehicle_type": "Van",
+        "license_number": "IJ54321",
+        "availability_status": "Off Duty",
+        "created_at": "2023-09-13T06:23:44.184Z",
+        "updated_at": "2023-09-12T23:12:31.530Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2d74f51f-5e5f-40f8-a398-8fbd32b6287c",
+        "email": "Allen_Schultz5@hotmail.com",
+        "firstName": "Jackson",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/492.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a7381a2-b7a4-4588-aa7c-4ff858de2898",
+        "email": "Savanna0@yahoo.com",
+        "firstName": "Lonnie",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17407632",
+        "tenantId": null
+      },
+      {
+        "reference": "0b589b71-f46a-477e-87e3-5340ac67bccd",
+        "email": "Frederik_Quigley@hotmail.com",
+        "firstName": "Davonte",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/47.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fbca2650-8b8e-4036-b80a-e11c094b967f",
+        "email": "Jaqueline_Ratke99@yahoo.com",
+        "firstName": "Jolie",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87438876",
+        "tenantId": null
+      },
+      {
+        "reference": "63d41262-e229-4637-9452-1e7fd2880525",
+        "email": "Benjamin57@yahoo.com",
+        "firstName": "Percy",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/443.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "43bc92f2-d01a-4c86-a43d-56f26e2c7c38",
+        "order_date": "2023-09-12T12:56:24.453Z",
+        "delivery_date": "2023-09-12T16:15:12.020Z",
+        "status": "Pending",
+        "total_price": 59849,
+        "created_at": "2023-09-13T02:46:35.140Z",
+        "updated_at": "2023-09-12T07:47:12.517Z",
+        "coupen": "SUMMER2021",
+        "delivery_charges": "$5.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8f6c00cb-d4c3-4849-be21-81e691c348ad",
+        "order_date": "2023-09-12T20:57:37.223Z",
+        "delivery_date": "2023-09-12T21:57:30.908Z",
+        "status": "In Progress",
+        "total_price": 48640,
+        "created_at": "2023-09-13T03:58:44.386Z",
+        "updated_at": "2023-09-12T23:07:37.193Z",
+        "coupen": "FALLSALE",
+        "delivery_charges": "$3.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "c4676c8f-f349-48f7-b82e-7a2876d96ed9",
+        "order_date": "2023-09-13T03:49:28.723Z",
+        "delivery_date": "2023-09-12T07:54:33.639Z",
+        "status": "Ready for Pickup",
+        "total_price": 75857,
+        "created_at": "2023-09-12T08:57:31.303Z",
+        "updated_at": "2023-09-12T07:25:33.636Z",
+        "coupen": "HOLIDAYDEAL",
+        "delivery_charges": "$4.75",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5d2daf1e-90bf-4aaf-bee7-a5565ed26f42",
+        "order_date": "2023-09-12T09:06:04.899Z",
+        "delivery_date": "2023-09-12T17:26:09.755Z",
+        "status": "Out for Delivery",
+        "total_price": 42116,
+        "created_at": "2023-09-13T02:39:09.909Z",
+        "updated_at": "2023-09-12T10:33:29.426Z",
+        "coupen": "LOYALTYREWARD",
+        "delivery_charges": "$2.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d112b86b-2906-43e7-b423-e900ec8bcfb2",
+        "order_date": "2023-09-13T02:43:12.184Z",
+        "delivery_date": "2023-09-12T22:34:42.117Z",
+        "status": "Delivered",
+        "total_price": 7574,
+        "created_at": "2023-09-13T01:40:57.214Z",
+        "updated_at": "2023-09-13T02:44:51.684Z",
+        "coupen": "NEWCUSTOMER",
+        "delivery_charges": "$6.25",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "menu_item": [
+      {
+        "id": "d083d65c-97c0-41a8-a3bb-3681d03edf93",
+        "name": "Margherita Pizza",
+        "description": "Fresh tomatoes, mozzarella, basil",
+        "price": 22705,
+        "created_at": "2023-09-13T06:40:58.170Z",
+        "updated_at": "2023-09-12T16:08:21.136Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4bc286d9-5ae8-4ad1-8bba-a30638ade949",
+        "name": "Taco Supreme",
+        "description": "Seasoned ground beef, lettuce, cheese",
+        "price": 38391,
+        "created_at": "2023-09-13T06:27:39.137Z",
+        "updated_at": "2023-09-12T20:16:32.560Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "36b67711-bb9b-4fa1-b9cb-42bb612931aa",
+        "name": "Grilled Salmon",
+        "description": "Served with roasted vegetables",
+        "price": 41832,
+        "created_at": "2023-09-12T19:17:35.874Z",
+        "updated_at": "2023-09-12T17:55:59.439Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5f6f6cbe-2f7c-42f5-995c-fec5bc37198b",
+        "name": "Classic Cheeseburger",
+        "description": "Juicy beef patty with all the fixings",
+        "price": 28800,
+        "created_at": "2023-09-13T03:40:11.506Z",
+        "updated_at": "2023-09-13T00:45:11.312Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d68d4777-8aea-4f06-9678-a76f01891153",
+        "name": "Pad Thai",
+        "description": "Stir-fried noodles with shrimp and vegetables",
+        "price": 14753,
+        "created_at": "2023-09-12T17:12:26.270Z",
+        "updated_at": "2023-09-12T21:39:04.238Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "ad2bffc7-af5c-4cc1-8b27-c8842d53a207",
+        "quantity": 72166,
+        "price": 36601,
+        "created_at": "2023-09-12T11:43:45.118Z",
+        "updated_at": "2023-09-13T00:33:28.330Z",
+        "menu_item_id": "5f6f6cbe-2f7c-42f5-995c-fec5bc37198b",
+        "order_id": "d112b86b-2906-43e7-b423-e900ec8bcfb2"
+      },
+      {
+        "id": "0b9aeac0-0168-4ca3-b84b-c66899a8764a",
+        "quantity": 18026,
+        "price": 17820,
+        "created_at": "2023-09-13T04:33:37.332Z",
+        "updated_at": "2023-09-13T00:47:44.681Z",
+        "menu_item_id": "36b67711-bb9b-4fa1-b9cb-42bb612931aa",
+        "order_id": "8f6c00cb-d4c3-4849-be21-81e691c348ad"
+      },
+      {
+        "id": "0ee6f2f8-5d39-401b-818f-8968951133db",
+        "quantity": 37047,
+        "price": 43174,
+        "created_at": "2023-09-12T15:40:37.160Z",
+        "updated_at": "2023-09-12T17:49:49.829Z",
+        "menu_item_id": "4bc286d9-5ae8-4ad1-8bba-a30638ade949",
+        "order_id": "d112b86b-2906-43e7-b423-e900ec8bcfb2"
+      },
+      {
+        "id": "c04954c0-c94f-478f-9403-c55876893782",
+        "quantity": 40043,
+        "price": 85534,
+        "created_at": "2023-09-12T21:14:28.842Z",
+        "updated_at": "2023-09-12T16:31:20.943Z",
+        "menu_item_id": "d083d65c-97c0-41a8-a3bb-3681d03edf93",
+        "order_id": "c4676c8f-f349-48f7-b82e-7a2876d96ed9"
+      },
+      {
+        "id": "b5d53cec-8297-4b2d-97f9-2833388209cd",
+        "quantity": 39375,
+        "price": 78121,
+        "created_at": "2023-09-12T09:19:03.337Z",
+        "updated_at": "2023-09-12T13:26:08.812Z",
+        "menu_item_id": "d68d4777-8aea-4f06-9678-a76f01891153",
+        "order_id": "43bc92f2-d01a-4c86-a43d-56f26e2c7c38"
+      }
+    ],
+    "delivery_personnel": [
+      {
+        "id": "59319626-f564-4068-9ea5-eabe12237043",
+        "vehicle_type": "Car",
+        "license_number": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-12T17:51:08.587Z",
+        "updated_at": "2023-09-12T21:21:24.725Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9db164c2-f6cd-470a-a836-159de7e75276",
+        "vehicle_type": "Motorcycle",
+        "license_number": "DEF456",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-13T01:12:11.877Z",
+        "updated_at": "2023-09-12T21:33:58.793Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dce58b77-8965-4862-ad03-1f6d23e38109",
+        "vehicle_type": "Bicycle",
+        "license_number": "GHI789",
+        "availability_status": "On Break",
+        "created_at": "2023-09-12T22:46:48.680Z",
+        "updated_at": "2023-09-12T11:40:29.005Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b738e4fc-b9ce-4b6b-b124-0c95012832f7",
+        "vehicle_type": "Scooter",
+        "license_number": "JKL012",
+        "availability_status": "On Delivery",
+        "created_at": "2023-09-13T04:35:23.877Z",
+        "updated_at": "2023-09-12T22:50:05.459Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aecf519b-c136-4b8e-9149-7f94c76ef685",
+        "vehicle_type": "Van",
+        "license_number": "MNO345",
+        "availability_status": "On Standby",
+        "created_at": "2023-09-12T08:09:04.775Z",
+        "updated_at": "2023-09-12T16:28:34.777Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ad68bb89-73e5-4324-808e-2b46a03416a3",
+        "email": "Claude11@yahoo.com",
+        "firstName": "Bethel",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13596172",
+        "tenantId": null
+      },
+      {
+        "reference": "f24be017-7dcf-444f-9809-1ac14f6f9a78",
+        "email": "Rogelio_Boyle80@gmail.com",
+        "firstName": "Celine",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85437153",
+        "tenantId": null
+      },
+      {
+        "reference": "1afa5e4d-8c12-4233-a325-1640de45a863",
+        "email": "Rhett.Murazik@yahoo.com",
+        "firstName": "Alize",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/302.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c7f09943-f102-4db7-8612-f3357aa2173a",
+        "email": "Litzy14@gmail.com",
+        "firstName": "Gunner",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17024212",
+        "tenantId": null
+      },
+      {
+        "reference": "6c6da2da-87c3-4f76-a024-eff422c02ed5",
+        "email": "Liza.Ruecker99@yahoo.com",
+        "firstName": "Anderson",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/407.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "12782ba9-29c9-4982-afdb-41d5ecd9205c",
+        "order_date": "2023-09-12T07:03:45.571Z",
+        "delivery_date": "2023-09-12T12:18:12.468Z",
+        "status": "Pending",
+        "total_price": 57618,
+        "created_at": "2023-09-12T21:30:04.460Z",
+        "updated_at": "2023-09-12T17:59:49.792Z",
+        "coupen": "DISCOUNT10",
+        "delivery_charges": "$5.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ff316800-147e-4dec-a622-a8e1a0f241cd",
+        "order_date": "2023-09-12T09:44:31.760Z",
+        "delivery_date": "2023-09-13T04:03:48.172Z",
+        "status": "Confirmed",
+        "total_price": 8450,
+        "created_at": "2023-09-13T06:01:24.509Z",
+        "updated_at": "2023-09-12T20:09:23.205Z",
+        "coupen": "FREESHIP",
+        "delivery_charges": "$3.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8d15dbe0-55ac-4c5c-a9c2-d7beb23db4e6",
+        "order_date": "2023-09-12T11:11:27.481Z",
+        "delivery_date": "2023-09-12T09:26:32.478Z",
+        "status": "In Progress",
+        "total_price": 36077,
+        "created_at": "2023-09-12T08:50:06.888Z",
+        "updated_at": "2023-09-13T02:46:57.652Z",
+        "coupen": "SAVEMORE",
+        "delivery_charges": "$4.99",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "24deee6a-4545-42e4-bfff-ea241fc664bc",
+        "order_date": "2023-09-13T00:57:26.378Z",
+        "delivery_date": "2023-09-12T12:36:51.877Z",
+        "status": "Out for Delivery",
+        "total_price": 96206,
+        "created_at": "2023-09-12T21:48:10.082Z",
+        "updated_at": "2023-09-12T18:24:21.102Z",
+        "coupen": "FIRSTORDER",
+        "delivery_charges": "$2.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "152bbbce-9e0d-4e18-b96a-5ccab86a1423",
+        "order_date": "2023-09-12T13:18:21.314Z",
+        "delivery_date": "2023-09-13T05:27:58.483Z",
+        "status": "Delivered",
+        "total_price": 21424,
+        "created_at": "2023-09-12T20:18:19.845Z",
+        "updated_at": "2023-09-13T01:35:05.918Z",
+        "coupen": "LOYALTY",
+        "delivery_charges": "$6.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "menu_item": [
+      {
+        "id": "2213911d-6411-4ac2-94d1-929886cbf269",
+        "name": "Cheeseburger",
+        "description": "Juicy beef patty topped with melted cheese and fresh vegetables",
+        "price": 54998,
+        "created_at": "2023-09-12T12:33:21.671Z",
+        "updated_at": "2023-09-12T09:55:17.057Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "045a75b8-d664-4191-b38f-03b25095c57e",
+        "name": "Margherita Pizza",
+        "description": "Classic pizza with tomato sauce, mozzarella cheese, and basil",
+        "price": 39280,
+        "created_at": "2023-09-12T19:12:29.465Z",
+        "updated_at": "2023-09-12T15:49:09.373Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "494f29cf-233e-478d-92e9-35c9677cf8af",
+        "name": "Chicken Alfredo",
+        "description": "Creamy pasta dish with grilled chicken and Parmesan cheese",
+        "price": 98004,
+        "created_at": "2023-09-12T13:02:42.339Z",
+        "updated_at": "2023-09-13T00:36:11.076Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "afa8109b-b611-4c29-ad28-85a6cd5c5966",
+        "name": "Sushi Roll",
+        "description": "Freshly prepared sushi rolls with a variety of fillings",
+        "price": 77049,
+        "created_at": "2023-09-13T02:12:22.459Z",
+        "updated_at": "2023-09-12T19:06:33.108Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "020c3115-b9bf-40b2-bd84-d862406d3a4e",
+        "name": "Caesar Salad",
+        "description": "Crisp romaine lettuce tossed in Caesar dressing with croutons and Parmesan cheese",
+        "price": 45732,
+        "created_at": "2023-09-13T02:22:56.331Z",
+        "updated_at": "2023-09-12T22:26:54.517Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "d85df8e6-17df-4611-b00c-287301ab59e0",
+        "quantity": 35845,
+        "price": 25603,
+        "created_at": "2023-09-13T03:27:17.773Z",
+        "updated_at": "2023-09-13T03:25:02.941Z",
+        "menu_item_id": "045a75b8-d664-4191-b38f-03b25095c57e",
+        "order_id": "ff316800-147e-4dec-a622-a8e1a0f241cd"
+      },
+      {
+        "id": "33f1e81a-fe94-4cd4-972e-397b7f3411d0",
+        "quantity": 27002,
+        "price": 22108,
+        "created_at": "2023-09-12T15:37:38.449Z",
+        "updated_at": "2023-09-12T16:53:34.055Z",
+        "menu_item_id": "2213911d-6411-4ac2-94d1-929886cbf269",
+        "order_id": "12782ba9-29c9-4982-afdb-41d5ecd9205c"
+      },
+      {
+        "id": "029627bc-5875-40f5-928a-432a28e7c8d1",
+        "quantity": 61939,
+        "price": 48085,
+        "created_at": "2023-09-12T18:25:06.172Z",
+        "updated_at": "2023-09-13T00:43:32.459Z",
+        "menu_item_id": "045a75b8-d664-4191-b38f-03b25095c57e",
+        "order_id": "152bbbce-9e0d-4e18-b96a-5ccab86a1423"
+      },
+      {
+        "id": "4fc4917f-91d5-4f2d-8b8b-a3d2fc5517c3",
+        "quantity": 62848,
+        "price": 13243,
+        "created_at": "2023-09-13T02:21:42.517Z",
+        "updated_at": "2023-09-12T13:46:30.996Z",
+        "menu_item_id": "2213911d-6411-4ac2-94d1-929886cbf269",
+        "order_id": "24deee6a-4545-42e4-bfff-ea241fc664bc"
+      },
+      {
+        "id": "d80b4350-bb45-481e-8e22-d31adfa20b28",
+        "quantity": 27959,
+        "price": 90856,
+        "created_at": "2023-09-12T12:55:27.002Z",
+        "updated_at": "2023-09-12T15:20:54.280Z",
+        "menu_item_id": "020c3115-b9bf-40b2-bd84-d862406d3a4e",
+        "order_id": "152bbbce-9e0d-4e18-b96a-5ccab86a1423"
+      }
+    ],
+    "delivery_personnel": [
+      {
+        "id": "2f3cf64a-55c2-4bfa-aa2e-f72903cf3b48",
+        "vehicle_type": "Car",
+        "license_number": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-13T03:49:41.382Z",
+        "updated_at": "2023-09-13T05:43:26.943Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0355e649-cad2-480b-af83-fc58df224cb5",
+        "vehicle_type": "Motorcycle",
+        "license_number": "DEF456",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-13T06:22:22.185Z",
+        "updated_at": "2023-09-12T14:05:40.591Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09302d78-53ec-4eac-9823-d2dd8bd2e0b6",
+        "vehicle_type": "Bicycle",
+        "license_number": "GHI789",
+        "availability_status": "On Break",
+        "created_at": "2023-09-12T12:05:01.178Z",
+        "updated_at": "2023-09-12T14:27:55.790Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fb22201-0030-49e4-9f57-72999d9e3164",
+        "vehicle_type": "Scooter",
+        "license_number": "JKL012",
+        "availability_status": "On Delivery",
+        "created_at": "2023-09-12T17:07:55.080Z",
+        "updated_at": "2023-09-13T04:36:35.560Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee3532a1-1269-4a11-b47d-5f1deb859f79",
+        "vehicle_type": "Van",
+        "license_number": "MNO345",
+        "availability_status": "On Standby",
+        "created_at": "2023-09-12T08:23:46.846Z",
+        "updated_at": "2023-09-12T13:14:36.438Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c7e2f749-d834-475c-8119-cad2ba9514cf",
+        "email": "Boris93@hotmail.com",
+        "firstName": "Bobbie",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/941.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e41efeb2-6638-478a-9a2a-8926fb2a4f97",
+        "email": "Providenci57@gmail.com",
+        "firstName": "Shea",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/740.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6e045fe0-01d9-4d01-80f1-3573a1bca8ac",
+        "email": "Paolo52@hotmail.com",
+        "firstName": "Opal",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63201787",
+        "tenantId": null
+      },
+      {
+        "reference": "00e19d01-d4df-4e20-ba6c-d9c3b3fc368e",
+        "email": "Milford3@yahoo.com",
+        "firstName": "Josie",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47278134",
+        "tenantId": null
+      },
+      {
+        "reference": "3b46cab1-3168-46e8-a3e7-0c03e9a0931c",
+        "email": "Trever.OHara3@hotmail.com",
+        "firstName": "Orpha",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10219329",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "6db29196-f68a-48da-b6ff-ecd1ef4597a7",
+        "order_date": "2023-09-12T12:16:49.612Z",
+        "delivery_date": "2023-09-13T00:12:59.326Z",
+        "status": "Pending",
+        "total_price": 45607,
+        "created_at": "2023-09-12T20:29:39.145Z",
+        "updated_at": "2023-09-12T20:20:22.665Z",
+        "coupen": "DISCOUNT10",
+        "delivery_charges": "$5.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5f6513d5-c5bb-4f85-b484-65d860def31e",
+        "order_date": "2023-09-12T12:11:04.582Z",
+        "delivery_date": "2023-09-12T17:49:09.934Z",
+        "status": "Processing",
+        "total_price": 59892,
+        "created_at": "2023-09-12T12:17:32.118Z",
+        "updated_at": "2023-09-13T06:50:41.562Z",
+        "coupen": "SAVE20",
+        "delivery_charges": "$3.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8ea0209a-3a08-4971-b75d-f3941e39ec35",
+        "order_date": "2023-09-12T08:36:06.478Z",
+        "delivery_date": "2023-09-12T21:43:44.391Z",
+        "status": "Shipped",
+        "total_price": 66622,
+        "created_at": "2023-09-13T06:51:15.875Z",
+        "updated_at": "2023-09-12T18:59:27.607Z",
+        "coupen": "FREESHIP",
+        "delivery_charges": "$4.99",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f975436c-269a-4dfa-b2c4-7c102527e40b",
+        "order_date": "2023-09-12T22:00:21.147Z",
+        "delivery_date": "2023-09-12T15:02:55.648Z",
+        "status": "Delivered",
+        "total_price": 65785,
+        "created_at": "2023-09-13T02:44:24.394Z",
+        "updated_at": "2023-09-12T11:44:21.066Z",
+        "coupen": "MEALDEAL",
+        "delivery_charges": "$2.75",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1819016c-6332-48d7-9e17-3cd0206b0309",
+        "order_date": "2023-09-12T10:27:36.446Z",
+        "delivery_date": "2023-09-12T09:36:28.417Z",
+        "status": "Cancelled",
+        "total_price": 53480,
+        "created_at": "2023-09-12T13:28:24.520Z",
+        "updated_at": "2023-09-12T07:42:19.817Z",
+        "coupen": "LOYALTY25",
+        "delivery_charges": "$6.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "menu_item": [
+      {
+        "id": "53aa8254-7afe-4451-b29b-f63a3033406f",
+        "name": "Margherita Pizza",
+        "description": "Fresh tomatoes, mozzarella, and basil on a thin crust",
+        "price": 29916,
+        "created_at": "2023-09-12T13:27:19.310Z",
+        "updated_at": "2023-09-12T18:12:42.085Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "96518891-c793-437a-a3af-9f4b294a7318",
+        "name": "Chicken Enchiladas",
+        "description": "Tortillas filled with seasoned chicken and topped with salsa and cheese",
+        "price": 15745,
+        "created_at": "2023-09-12T20:17:02.709Z",
+        "updated_at": "2023-09-12T09:21:18.836Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "927d2796-de77-4526-8c1f-2b09d5026232",
+        "name": "Sweet and Sour Chicken",
+        "description": "Crispy chicken in a tangy sauce with bell peppers and pineapple",
+        "price": 51947,
+        "created_at": "2023-09-12T12:51:30.468Z",
+        "updated_at": "2023-09-12T19:07:15.078Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "9642940b-6fb4-49fc-85f5-c3383f59b72d",
+        "name": "Grilled Salmon",
+        "description": "Fresh salmon fillet grilled to perfection with a side of vegetables",
+        "price": 607,
+        "created_at": "2023-09-12T18:11:41.182Z",
+        "updated_at": "2023-09-12T18:15:43.165Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "728e085c-62e8-4d26-886e-587a1b039442",
+        "name": "Classic Cheeseburger",
+        "description": "Juicy beef patty with melted cheese, lettuce, tomato, and pickles",
+        "price": 67004,
+        "created_at": "2023-09-12T17:40:59.698Z",
+        "updated_at": "2023-09-12T13:54:49.401Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "99a169d5-6080-426f-b021-2106c2d14e83",
+        "quantity": 51600,
+        "price": 58805,
+        "created_at": "2023-09-13T01:58:37.038Z",
+        "updated_at": "2023-09-12T08:01:22.784Z",
+        "menu_item_id": "9642940b-6fb4-49fc-85f5-c3383f59b72d",
+        "order_id": "1819016c-6332-48d7-9e17-3cd0206b0309"
+      },
+      {
+        "id": "d413eb35-088e-4416-af4e-bedfd0c6a02b",
+        "quantity": 64650,
+        "price": 86597,
+        "created_at": "2023-09-12T15:00:50.458Z",
+        "updated_at": "2023-09-13T00:51:37.834Z",
+        "menu_item_id": "728e085c-62e8-4d26-886e-587a1b039442",
+        "order_id": "1819016c-6332-48d7-9e17-3cd0206b0309"
+      },
+      {
+        "id": "3ca47a3d-27e6-400a-8bb6-ca5bf249ab54",
+        "quantity": 5672,
+        "price": 89919,
+        "created_at": "2023-09-13T01:50:37.637Z",
+        "updated_at": "2023-09-12T14:27:07.313Z",
+        "menu_item_id": "9642940b-6fb4-49fc-85f5-c3383f59b72d",
+        "order_id": "6db29196-f68a-48da-b6ff-ecd1ef4597a7"
+      },
+      {
+        "id": "4086698d-8903-4edd-a70f-9a56454e1bf9",
+        "quantity": 23906,
+        "price": 1585,
+        "created_at": "2023-09-13T06:40:43.728Z",
+        "updated_at": "2023-09-12T08:23:11.789Z",
+        "menu_item_id": "96518891-c793-437a-a3af-9f4b294a7318",
+        "order_id": "6db29196-f68a-48da-b6ff-ecd1ef4597a7"
+      },
+      {
+        "id": "800a5f86-5ce5-4585-9807-592c68794ace",
+        "quantity": 29372,
+        "price": 75046,
+        "created_at": "2023-09-13T00:49:51.288Z",
+        "updated_at": "2023-09-12T23:47:28.998Z",
+        "menu_item_id": "53aa8254-7afe-4451-b29b-f63a3033406f",
+        "order_id": "f975436c-269a-4dfa-b2c4-7c102527e40b"
+      }
+    ],
+    "delivery_personnel": [
+      {
+        "id": "d8c330e1-004c-4755-8509-6e8961be3763",
+        "vehicle_type": "Car",
+        "license_number": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-12T19:17:09.758Z",
+        "updated_at": "2023-09-12T17:57:26.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65f1dec3-1bc7-4b14-885f-36b4d0952888",
+        "vehicle_type": "Motorcycle",
+        "license_number": "DEF456",
+        "availability_status": "Busy",
+        "created_at": "2023-09-13T04:20:35.148Z",
+        "updated_at": "2023-09-12T16:19:03.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b6c9fdb-7685-4cfc-9baa-17891519ed94",
+        "vehicle_type": "Bicycle",
+        "license_number": "GHI789",
+        "availability_status": "On Break",
+        "created_at": "2023-09-12T17:21:26.668Z",
+        "updated_at": "2023-09-12T18:27:07.543Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8490744e-db6d-4cad-b7f1-4b2930947092",
+        "vehicle_type": "Scooter",
+        "license_number": "JKL012",
+        "availability_status": "Offline",
+        "created_at": "2023-09-12T18:14:52.611Z",
+        "updated_at": "2023-09-12T16:15:25.251Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfd69c19-a76b-4363-83b0-46acb2adc0ae",
+        "vehicle_type": "Van",
+        "license_number": "MNO345",
+        "availability_status": "On Duty",
+        "created_at": "2023-09-12T12:23:28.443Z",
+        "updated_at": "2023-09-12T12:13:15.746Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "acf48188-b0fd-4ebe-8216-7cc179cdfb98",
+        "email": "Ellie_Lemke51@hotmail.com",
+        "firstName": "Gail",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/47.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d4a7659-a876-4be7-b039-80d6fa2f8086",
+        "email": "Jeanette_Grant@gmail.com",
+        "firstName": "Dameon",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1722228",
+        "tenantId": null
+      },
+      {
+        "reference": "11b59ab8-56f9-4b38-8e03-f9bbad801065",
+        "email": "Ewell_Hilll22@gmail.com",
+        "firstName": "Keshawn",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1042.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8dedb435-0ed3-4583-bf41-e73f3eaa36a2",
+        "email": "Candice.Beahan9@yahoo.com",
+        "firstName": "Giovanny",
+        "lastName": "McGlynn-Hegmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36216583",
+        "tenantId": null
+      },
+      {
+        "reference": "7cd5a527-a3fd-4264-85f8-2edd497bc0ae",
+        "email": "Daniella.Mayert@hotmail.com",
+        "firstName": "Rylan",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/44.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "2747d057-cdc1-4ed8-800b-28e2aaff2fb0",
+        "order_date": "2023-09-12T10:43:48.993Z",
+        "delivery_date": "2023-09-12T12:46:59.051Z",
+        "status": "Pending",
+        "total_price": 81313,
+        "created_at": "2023-09-12T09:34:31.783Z",
+        "updated_at": "2023-09-12T19:14:11.137Z",
+        "coupen": "SUMMER10",
+        "delivery_charges": "$5.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "41012b77-7fd0-4ab0-b043-4c243a6ea839",
+        "order_date": "2023-09-12T19:43:19.887Z",
+        "delivery_date": "2023-09-12T23:58:50.276Z",
+        "status": "Confirmed",
+        "total_price": 62388,
+        "created_at": "2023-09-12T22:47:01.549Z",
+        "updated_at": "2023-09-13T05:42:53.923Z",
+        "coupen": "FREESHIP",
+        "delivery_charges": "$3.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "06ea6496-bbe5-4a7c-b333-85e97c5e5ffa",
+        "order_date": "2023-09-13T05:52:56.444Z",
+        "delivery_date": "2023-09-12T21:26:14.594Z",
+        "status": "Preparing",
+        "total_price": 92983,
+        "created_at": "2023-09-12T20:22:39.011Z",
+        "updated_at": "2023-09-12T12:03:37.998Z",
+        "coupen": "DISCOUNT20",
+        "delivery_charges": "$4.75",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ad34c20b-e1e8-416b-b26f-21ce51ac5bb8",
+        "order_date": "2023-09-13T02:02:16.147Z",
+        "delivery_date": "2023-09-12T15:09:28.301Z",
+        "status": "Out for Delivery",
+        "total_price": 71458,
+        "created_at": "2023-09-12T14:50:40.928Z",
+        "updated_at": "2023-09-12T18:10:01.198Z",
+        "coupen": "LOYALTY25",
+        "delivery_charges": "$6.25",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "aeb0cf2e-f98c-4032-a61e-3372438e9851",
+        "order_date": "2023-09-12T12:54:05.698Z",
+        "delivery_date": "2023-09-13T02:00:25.417Z",
+        "status": "Delivered",
+        "total_price": 96907,
+        "created_at": "2023-09-12T08:12:26.532Z",
+        "updated_at": "2023-09-12T07:14:05.206Z",
+        "coupen": "FIRSTORDER",
+        "delivery_charges": "$2.90",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "menu_item": [
+      {
+        "id": "e26b104c-803f-4857-9d3f-565ac07926ab",
+        "name": "Croissant",
+        "description": "Freshly baked flaky pastry filled with butter and almond cream",
+        "price": 66711,
+        "created_at": "2023-09-12T14:28:11.791Z",
+        "updated_at": "2023-09-12T20:54:32.107Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d1e91023-e524-43ba-9a5a-d333bf75ea17",
+        "name": "Margherita Pizza",
+        "description": "Classic Italian pizza topped with tomato sauce, mozzarella, and basil",
+        "price": 2746,
+        "created_at": "2023-09-12T18:44:26.193Z",
+        "updated_at": "2023-09-13T02:51:36.533Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "7fa32e32-ab2b-4cb4-9b02-1cb7c2d54305",
+        "name": "Chicken Tikka Masala",
+        "description": "Tender chicken cooked in a creamy tomato-based sauce with Indian spices",
+        "price": 36292,
+        "created_at": "2023-09-13T01:19:45.988Z",
+        "updated_at": "2023-09-13T03:23:49.220Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ec13c8d7-ffd4-4a71-904f-cf2420506a55",
+        "name": "Cheeseburger",
+        "description": "Juicy beef patty topped with cheese, lettuce, tomato, and pickles",
+        "price": 80734,
+        "created_at": "2023-09-12T09:33:53.732Z",
+        "updated_at": "2023-09-12T08:44:31.691Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ce77b286-3b2d-4185-a30b-3722b68b49fe",
+        "name": "Sashimi Platter",
+        "description": "Assortment of raw fish slices served with soy sauce and wasabi",
+        "price": 77318,
+        "created_at": "2023-09-12T23:17:09.244Z",
+        "updated_at": "2023-09-13T04:05:19.560Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "67db2c71-d295-4dce-9f72-08ff4a554ddd",
+        "quantity": 1900,
+        "price": 37213,
+        "created_at": "2023-09-12T22:07:28.699Z",
+        "updated_at": "2023-09-12T14:35:38.936Z",
+        "menu_item_id": "7fa32e32-ab2b-4cb4-9b02-1cb7c2d54305",
+        "order_id": "41012b77-7fd0-4ab0-b043-4c243a6ea839"
+      },
+      {
+        "id": "50a67fdd-ea24-4d54-9731-5b1c749176c9",
+        "quantity": 35297,
+        "price": 9671,
+        "created_at": "2023-09-13T00:36:41.691Z",
+        "updated_at": "2023-09-12T11:22:33.000Z",
+        "menu_item_id": "ce77b286-3b2d-4185-a30b-3722b68b49fe",
+        "order_id": "aeb0cf2e-f98c-4032-a61e-3372438e9851"
+      },
+      {
+        "id": "7ea15dab-e38f-4319-bf58-5e4364a27dfa",
+        "quantity": 54043,
+        "price": 4267,
+        "created_at": "2023-09-12T23:26:07.923Z",
+        "updated_at": "2023-09-12T12:40:19.642Z",
+        "menu_item_id": "ec13c8d7-ffd4-4a71-904f-cf2420506a55",
+        "order_id": "ad34c20b-e1e8-416b-b26f-21ce51ac5bb8"
+      },
+      {
+        "id": "34627b89-2a29-4a25-b6be-6bf041b764c7",
+        "quantity": 1819,
+        "price": 91221,
+        "created_at": "2023-09-13T03:48:12.686Z",
+        "updated_at": "2023-09-12T15:07:17.176Z",
+        "menu_item_id": "e26b104c-803f-4857-9d3f-565ac07926ab",
+        "order_id": "41012b77-7fd0-4ab0-b043-4c243a6ea839"
+      },
+      {
+        "id": "37f2798b-07d2-4394-a217-328134c32c5d",
+        "quantity": 87059,
+        "price": 96183,
+        "created_at": "2023-09-13T04:52:04.308Z",
+        "updated_at": "2023-09-12T23:32:47.014Z",
+        "menu_item_id": "ec13c8d7-ffd4-4a71-904f-cf2420506a55",
+        "order_id": "aeb0cf2e-f98c-4032-a61e-3372438e9851"
+      }
+    ],
+    "delivery_personnel": [
+      {
+        "id": "9cb91909-0a31-44bb-9206-f67aef514662",
+        "vehicle_type": "Car",
+        "license_number": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-12T21:58:28.729Z",
+        "updated_at": "2023-09-13T00:09:43.007Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b99316aa-dc85-4261-adac-0515dda1ca8a",
+        "vehicle_type": "Bicycle",
+        "license_number": "DEF456",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-13T04:56:11.763Z",
+        "updated_at": "2023-09-12T10:07:44.232Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a3a9e19-fb84-45c9-b570-a9ccb47cd89e",
+        "vehicle_type": "Motorcycle",
+        "license_number": "GHI789",
+        "availability_status": "On Break",
+        "created_at": "2023-09-13T02:07:30.506Z",
+        "updated_at": "2023-09-12T21:54:23.332Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88c63120-f024-4bd2-8754-de1060e9e942",
+        "vehicle_type": "Scooter",
+        "license_number": "JKL012",
+        "availability_status": "Delivering",
+        "created_at": "2023-09-13T01:47:57.743Z",
+        "updated_at": "2023-09-12T07:48:47.003Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55931f66-2f97-4500-a1fa-7a738899302a",
+        "vehicle_type": "Van",
+        "license_number": "MNO345",
+        "availability_status": "Offline",
+        "created_at": "2023-09-13T05:10:29.797Z",
+        "updated_at": "2023-09-12T09:11:53.055Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9e5ab798-9cba-46bb-b8d0-3bf7e2f08284",
+        "email": "Yesenia.OConnell@yahoo.com",
+        "firstName": "Tracy",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45459189",
+        "tenantId": null
+      },
+      {
+        "reference": "68667837-7b95-42fd-a98a-0b621579080a",
+        "email": "Shaun_Boyle@yahoo.com",
+        "firstName": "Maximillia",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/970.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dfa107b0-eea9-4579-a8f5-d676d71afe66",
+        "email": "Domenico98@yahoo.com",
+        "firstName": "Cleveland",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60d77068-b2ef-489c-90ec-5675bce8df03",
+        "email": "Marcelino32@yahoo.com",
+        "firstName": "Chaya",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/864.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61662917-5f1f-444f-a81d-7f025c02d98d",
+        "email": "Mariana31@hotmail.com",
+        "firstName": "Belle",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12468668",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "0bc7de92-8327-4b20-ab03-b0ae81e2884d",
+        "order_date": "2023-09-12T17:24:20.432Z",
+        "delivery_date": "2023-09-13T05:31:29.884Z",
+        "status": "Pending",
+        "total_price": 57843,
+        "created_at": "2023-09-12T12:56:32.985Z",
+        "updated_at": "2023-09-12T20:01:48.369Z",
+        "coupen": "SUMMER2021",
+        "delivery_charges": "$5.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "2fe01869-582c-4c63-b14a-aaaa70fab220",
+        "order_date": "2023-09-13T05:01:18.606Z",
+        "delivery_date": "2023-09-12T07:23:16.215Z",
+        "status": "Processing",
+        "total_price": 2098,
+        "created_at": "2023-09-12T19:13:00.119Z",
+        "updated_at": "2023-09-13T05:34:14.539Z",
+        "coupen": "FREESHIP",
+        "delivery_charges": "$7.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "9dbac4ed-f64c-49d6-8226-2b3c29f8d3e5",
+        "order_date": "2023-09-12T11:38:18.677Z",
+        "delivery_date": "2023-09-12T15:23:24.654Z",
+        "status": "Ready for Pickup",
+        "total_price": 76351,
+        "created_at": "2023-09-12T11:50:05.888Z",
+        "updated_at": "2023-09-13T06:01:15.390Z",
+        "coupen": "LOYALTY10",
+        "delivery_charges": "$10.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "bcf50d4c-d5e6-4bae-a239-6e60215761de",
+        "order_date": "2023-09-12T07:36:19.883Z",
+        "delivery_date": "2023-09-12T09:54:34.547Z",
+        "status": "Out for Delivery",
+        "total_price": 49899,
+        "created_at": "2023-09-13T04:34:33.896Z",
+        "updated_at": "2023-09-12T09:37:21.382Z",
+        "coupen": "FIRSTORDER",
+        "delivery_charges": "$12.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e1d567f7-435a-46cb-bc8a-edfbf1e518ae",
+        "order_date": "2023-09-13T03:14:06.015Z",
+        "delivery_date": "2023-09-12T09:41:14.481Z",
+        "status": "Delivered",
+        "total_price": 70972,
+        "created_at": "2023-09-13T05:56:12.379Z",
+        "updated_at": "2023-09-12T13:49:47.873Z",
+        "coupen": "HAPPYHOUR",
+        "delivery_charges": "$15.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "menu_item": [
+      {
+        "id": "3af94c54-862f-450d-a8a0-99bfdbcc895d",
+        "name": "Grilled Salmon",
+        "description": "Freshly grilled salmon served with seasonal vegetables",
+        "price": 70149,
+        "created_at": "2023-09-12T15:09:56.139Z",
+        "updated_at": "2023-09-12T10:27:00.607Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5636b8d5-6dd5-4782-97f2-b17ebbe2e820",
+        "name": "Margherita Pizza",
+        "description": "Classic pizza topped with fresh tomatoes and mozzarella cheese",
+        "price": 97003,
+        "created_at": "2023-09-12T20:15:51.543Z",
+        "updated_at": "2023-09-12T18:11:37.643Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "b8199de7-132c-4e60-af0f-02a1ab9f10df",
+        "name": "Chicken Alfredo",
+        "description": "Creamy pasta dish with grilled chicken and Alfredo sauce",
+        "price": 39655,
+        "created_at": "2023-09-12T08:41:21.726Z",
+        "updated_at": "2023-09-12T17:10:03.132Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3f09cf8e-ebbb-4eb8-b0d0-dcef35428786",
+        "name": "Beef Tacos",
+        "description": "Tender beef tacos with salsa and guacamole",
+        "price": 40642,
+        "created_at": "2023-09-13T03:55:21.792Z",
+        "updated_at": "2023-09-13T02:09:18.036Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ba523c45-e0e7-4821-a5e4-e3bebaeac9d9",
+        "name": "Vegetable Stir-Fry",
+        "description": "Stir-fried vegetables with a savory sauce served over steamed rice",
+        "price": 3647,
+        "created_at": "2023-09-12T08:49:27.354Z",
+        "updated_at": "2023-09-13T02:49:07.181Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "b516e64f-f1f4-46d3-933f-f31141660c09",
+        "quantity": 27561,
+        "price": 68838,
+        "created_at": "2023-09-12T08:05:10.611Z",
+        "updated_at": "2023-09-12T07:34:58.131Z",
+        "menu_item_id": "5636b8d5-6dd5-4782-97f2-b17ebbe2e820",
+        "order_id": "2fe01869-582c-4c63-b14a-aaaa70fab220"
+      },
+      {
+        "id": "26930269-a443-4f70-a9de-f4c1dd595c9b",
+        "quantity": 26305,
+        "price": 46575,
+        "created_at": "2023-09-12T23:43:52.905Z",
+        "updated_at": "2023-09-12T13:21:29.040Z",
+        "menu_item_id": "5636b8d5-6dd5-4782-97f2-b17ebbe2e820",
+        "order_id": "e1d567f7-435a-46cb-bc8a-edfbf1e518ae"
+      },
+      {
+        "id": "eeb1c654-db80-4a2c-bc7a-422a8cd020ba",
+        "quantity": 76914,
+        "price": 95697,
+        "created_at": "2023-09-12T13:10:57.478Z",
+        "updated_at": "2023-09-12T18:33:53.282Z",
+        "menu_item_id": "3f09cf8e-ebbb-4eb8-b0d0-dcef35428786",
+        "order_id": "2fe01869-582c-4c63-b14a-aaaa70fab220"
+      },
+      {
+        "id": "84a03efb-738f-4bd0-b746-1a46c0ec5a18",
+        "quantity": 70500,
+        "price": 3734,
+        "created_at": "2023-09-13T04:04:59.757Z",
+        "updated_at": "2023-09-12T12:51:50.229Z",
+        "menu_item_id": "b8199de7-132c-4e60-af0f-02a1ab9f10df",
+        "order_id": "0bc7de92-8327-4b20-ab03-b0ae81e2884d"
+      },
+      {
+        "id": "43514f42-114d-4245-98b8-8148d1080e79",
+        "quantity": 84874,
+        "price": 42392,
+        "created_at": "2023-09-13T03:31:51.783Z",
+        "updated_at": "2023-09-13T05:15:51.394Z",
+        "menu_item_id": "5636b8d5-6dd5-4782-97f2-b17ebbe2e820",
+        "order_id": "9dbac4ed-f64c-49d6-8226-2b3c29f8d3e5"
+      }
+    ],
+    "delivery_personnel": [
+      {
+        "id": "71089b90-66c1-442f-8873-10819973aded",
+        "vehicle_type": "Car",
+        "license_number": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-13T06:48:15.836Z",
+        "updated_at": "2023-09-13T02:38:21.900Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e82c85f7-4085-499f-872e-bf82f004a244",
+        "vehicle_type": "Motorcycle",
+        "license_number": "DEF456",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-13T02:11:41.460Z",
+        "updated_at": "2023-09-13T04:45:06.208Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ddc3e53-1a95-4c88-be7d-1c08c3737a36",
+        "vehicle_type": "Bicycle",
+        "license_number": "GHI789",
+        "availability_status": "On Break",
+        "created_at": "2023-09-12T18:28:16.263Z",
+        "updated_at": "2023-09-12T23:48:31.860Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6316dcca-6960-47ca-b83f-1ef3f62887d2",
+        "vehicle_type": "Scooter",
+        "license_number": "JKL012",
+        "availability_status": "On Delivery",
+        "created_at": "2023-09-13T03:11:49.243Z",
+        "updated_at": "2023-09-12T21:41:11.533Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67b6f9ff-746e-42ba-8ae2-e13f115ab00e",
+        "vehicle_type": "Van",
+        "license_number": "MNO345",
+        "availability_status": "Off Duty",
+        "created_at": "2023-09-13T06:25:14.150Z",
+        "updated_at": "2023-09-12T15:58:25.954Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c0121727-da3e-400e-8312-5906f1b4775d",
+        "email": "Curtis87@yahoo.com",
+        "firstName": "Thurman",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/414.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c353d156-a6b7-4180-9d09-fe9c3d5514f5",
+        "email": "Ayla.Graham@hotmail.com",
+        "firstName": "Chad",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/34.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c22fa559-74d8-4d31-acf7-a6a9c3cf410e",
+        "email": "Brennon44@hotmail.com",
+        "firstName": "Aniya",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "896dba8e-bafc-465f-a4fa-1abbd08e10c9",
+        "email": "Aileen.Rowe@gmail.com",
+        "firstName": "River",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/9.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "884763e9-610d-4c80-9cf7-67e1c2d548f0",
+        "email": "Felipa.Moen@gmail.com",
+        "firstName": "Minerva",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81424804",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "d105aa8d-dc2c-4ef5-ae92-5d05f58033c5",
+        "order_date": "2023-09-12T09:13:32.983Z",
+        "delivery_date": "2023-09-13T03:59:08.428Z",
+        "status": "Pending",
+        "total_price": 11605,
+        "created_at": "2023-09-12T20:14:36.849Z",
+        "updated_at": "2023-09-12T18:12:37.982Z",
+        "coupen": "SAVE10",
+        "delivery_charges": "$5.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4aaf89ea-8f75-4697-835e-f37fec371492",
+        "order_date": "2023-09-12T15:07:29.326Z",
+        "delivery_date": "2023-09-13T06:29:16.964Z",
+        "status": "Processing",
+        "total_price": 3076,
+        "created_at": "2023-09-12T13:41:20.685Z",
+        "updated_at": "2023-09-12T22:31:10.942Z",
+        "coupen": "FREESHIP",
+        "delivery_charges": "$3.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "b2a73033-1c62-473a-896c-1895aa78b71a",
+        "order_date": "2023-09-12T11:58:55.818Z",
+        "delivery_date": "2023-09-12T15:29:34.975Z",
+        "status": "Delivered",
+        "total_price": 96081,
+        "created_at": "2023-09-12T20:26:53.854Z",
+        "updated_at": "2023-09-13T01:11:06.501Z",
+        "coupen": "DISCOUNT20",
+        "delivery_charges": "$2.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "342f7bcf-bac8-4a41-9de6-6031b98d2d6f",
+        "order_date": "2023-09-12T08:04:53.747Z",
+        "delivery_date": "2023-09-12T18:21:21.226Z",
+        "status": "Cancelled",
+        "total_price": 38181,
+        "created_at": "2023-09-12T19:09:01.534Z",
+        "updated_at": "2023-09-12T22:58:51.189Z",
+        "coupen": "SUMMERDEAL",
+        "delivery_charges": "$4.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "56a61512-e212-4c5a-a9f8-f45bae355be1",
+        "order_date": "2023-09-12T07:19:55.020Z",
+        "delivery_date": "2023-09-12T10:12:57.810Z",
+        "status": "Completed",
+        "total_price": 26848,
+        "created_at": "2023-09-13T05:47:27.794Z",
+        "updated_at": "2023-09-13T05:15:35.777Z",
+        "coupen": "HOLIDAYSALE",
+        "delivery_charges": "$6.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "menu_item": [
+      {
+        "id": "e4ce2033-8e18-4d6e-ba58-2d5150bde2b4",
+        "name": "Margherita Pizza",
+        "description": "Fresh tomatoes, mozzarella, and basil on a thin crust",
+        "price": 97204,
+        "created_at": "2023-09-13T02:05:54.573Z",
+        "updated_at": "2023-09-12T10:41:25.966Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "66dc38d9-68d3-49a2-8c45-5bbbbe3785e6",
+        "name": "Sweet and Sour Chicken",
+        "description": "Crispy chicken in a tangy sauce with vegetables",
+        "price": 65976,
+        "created_at": "2023-09-12T13:09:06.155Z",
+        "updated_at": "2023-09-13T03:22:08.571Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "c2a1f702-5456-4a79-bd37-90ed42048a02",
+        "name": "Guacamole and Chips",
+        "description": "Creamy avocado dip served with crispy tortilla chips",
+        "price": 88212,
+        "created_at": "2023-09-12T21:17:16.089Z",
+        "updated_at": "2023-09-13T03:26:12.260Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ac7a406e-a91c-4d35-b01c-b55f4b542893",
+        "name": "California Roll",
+        "description": "Sushi roll with crab, avocado, and cucumber",
+        "price": 71702,
+        "created_at": "2023-09-13T00:16:48.632Z",
+        "updated_at": "2023-09-12T20:09:18.469Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "cf7854c7-6c5c-4d55-9de4-9ca2f639617a",
+        "name": "Butter Chicken",
+        "description": "Tender chicken cooked in a rich tomato and butter sauce",
+        "price": 33877,
+        "created_at": "2023-09-12T14:44:46.113Z",
+        "updated_at": "2023-09-12T16:41:26.248Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "625045dd-6b69-4b6b-a462-e39a4cbeb97b",
+        "quantity": 75384,
+        "price": 96177,
+        "created_at": "2023-09-12T14:34:16.850Z",
+        "updated_at": "2023-09-12T09:44:35.012Z",
+        "menu_item_id": "ac7a406e-a91c-4d35-b01c-b55f4b542893",
+        "order_id": "d105aa8d-dc2c-4ef5-ae92-5d05f58033c5"
+      },
+      {
+        "id": "c06fb551-d309-4213-bed3-e83bc4852d69",
+        "quantity": 98145,
+        "price": 61484,
+        "created_at": "2023-09-13T02:50:12.394Z",
+        "updated_at": "2023-09-13T06:05:51.193Z",
+        "menu_item_id": "ac7a406e-a91c-4d35-b01c-b55f4b542893",
+        "order_id": "b2a73033-1c62-473a-896c-1895aa78b71a"
+      },
+      {
+        "id": "c361cf21-cfed-452a-a8f5-8bd2411d5e4c",
+        "quantity": 20634,
+        "price": 2147,
+        "created_at": "2023-09-12T08:05:50.193Z",
+        "updated_at": "2023-09-13T06:29:58.298Z",
+        "menu_item_id": "e4ce2033-8e18-4d6e-ba58-2d5150bde2b4",
+        "order_id": "4aaf89ea-8f75-4697-835e-f37fec371492"
+      },
+      {
+        "id": "fdd967df-e499-4435-b5e6-49f09234b53b",
+        "quantity": 69567,
+        "price": 91132,
+        "created_at": "2023-09-13T04:20:52.137Z",
+        "updated_at": "2023-09-12T22:05:03.940Z",
+        "menu_item_id": "c2a1f702-5456-4a79-bd37-90ed42048a02",
+        "order_id": "4aaf89ea-8f75-4697-835e-f37fec371492"
+      },
+      {
+        "id": "bc58b18b-ac43-4305-a4a9-3f30adf96362",
+        "quantity": 16303,
+        "price": 81098,
+        "created_at": "2023-09-12T11:41:17.997Z",
+        "updated_at": "2023-09-13T03:57:49.644Z",
+        "menu_item_id": "cf7854c7-6c5c-4d55-9de4-9ca2f639617a",
+        "order_id": "d105aa8d-dc2c-4ef5-ae92-5d05f58033c5"
+      }
+    ],
+    "delivery_personnel": [
+      {
+        "id": "fc143179-a4a3-4642-a14a-d21808018b35",
+        "vehicle_type": "Car",
+        "license_number": "ABC123",
+        "availability_status": "Available",
+        "created_at": "2023-09-12T15:31:00.998Z",
+        "updated_at": "2023-09-12T08:27:48.297Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fc45c16-93f2-4ba6-b736-cd06022a5a71",
+        "vehicle_type": "Bicycle",
+        "license_number": "DEF456",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-12T13:34:48.948Z",
+        "updated_at": "2023-09-12T23:58:54.776Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55e9d749-586c-4fab-9bc0-fdf0960ebab8",
+        "vehicle_type": "Motorcycle",
+        "license_number": "GHI789",
+        "availability_status": "On Break",
+        "created_at": "2023-09-13T05:59:21.180Z",
+        "updated_at": "2023-09-13T05:53:47.745Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8d83999-fdcf-41c1-ae00-4dcb0a234953",
+        "vehicle_type": "Scooter",
+        "license_number": "JKL012",
+        "availability_status": "On Delivery",
+        "created_at": "2023-09-13T00:48:45.658Z",
+        "updated_at": "2023-09-12T13:16:29.136Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba136424-acc9-444c-b6e4-8d30e1a81280",
+        "vehicle_type": "Van",
+        "license_number": "MNO345",
+        "availability_status": "Off Duty",
+        "created_at": "2023-09-13T04:49:11.523Z",
+        "updated_at": "2023-09-12T21:36:09.738Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0bc97f1f-1a81-4408-a6aa-9d204643bc03",
+        "email": "Pattie96@yahoo.com",
+        "firstName": "Jamal",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59352635",
+        "tenantId": null
+      },
+      {
+        "reference": "d018d4c7-08db-4031-9acc-b532880a4b7b",
+        "email": "Reymundo.Larson-Beier@yahoo.com",
+        "firstName": "Rebecca",
+        "lastName": "Will-Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/531.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4bf41468-3160-42c5-b41b-4612bb58c12c",
+        "email": "Alysa_Predovic@yahoo.com",
+        "firstName": "Casper",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d89ad793-63e4-43cf-9f66-c2bd3bca250f",
+        "email": "Uriel.Padberg-Green35@yahoo.com",
+        "firstName": "Cole",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35420060",
+        "tenantId": null
+      },
+      {
+        "reference": "df245973-25c3-4b0b-a372-d3399c1bb28d",
+        "email": "Seth73@yahoo.com",
+        "firstName": "Angel",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84916945",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "764398b6-312f-4c68-86fd-eaacc6e5c533",
+        "order_date": "2023-09-13T01:47:46.822Z",
+        "delivery_date": "2023-09-12T12:10:43.452Z",
+        "status": "Pending",
+        "total_price": 98418,
+        "created_at": "2023-09-12T11:23:57.665Z",
+        "updated_at": "2023-09-12T07:53:42.322Z",
+        "coupen": "SAVE10",
+        "delivery_charges": "$5.00",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e1ddf045-c960-404a-ad46-cc80f29231b1",
+        "order_date": "2023-09-12T09:58:50.014Z",
+        "delivery_date": "2023-09-13T03:24:18.705Z",
+        "status": "Confirmed",
+        "total_price": 18364,
+        "created_at": "2023-09-12T15:18:29.235Z",
+        "updated_at": "2023-09-12T12:24:03.506Z",
+        "coupen": "DISCOUNT20",
+        "delivery_charges": "$3.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3f04baa9-3656-4188-8774-464ec273a991",
+        "order_date": "2023-09-13T02:41:46.741Z",
+        "delivery_date": "2023-09-12T12:46:05.042Z",
+        "status": "In Progress",
+        "total_price": 86403,
+        "created_at": "2023-09-12T07:56:20.907Z",
+        "updated_at": "2023-09-12T12:22:50.585Z",
+        "coupen": "FREESHIP",
+        "delivery_charges": "$4.75",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "7eb2d01f-1cdc-49be-a619-433d003f0791",
+        "order_date": "2023-09-12T23:40:32.941Z",
+        "delivery_date": "2023-09-13T03:26:21.618Z",
+        "status": "Out for Delivery",
+        "total_price": 5078,
+        "created_at": "2023-09-12T15:26:28.218Z",
+        "updated_at": "2023-09-13T02:20:34.520Z",
+        "coupen": "SUMMER25",
+        "delivery_charges": "$6.25",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "95912337-8d02-433b-8c1e-c488c1568397",
+        "order_date": "2023-09-12T20:19:12.786Z",
+        "delivery_date": "2023-09-12T13:37:48.097Z",
+        "status": "Delivered",
+        "total_price": 56257,
+        "created_at": "2023-09-12T14:12:16.669Z",
+        "updated_at": "2023-09-13T05:21:07.555Z",
+        "coupen": "LOYALTY50",
+        "delivery_charges": "$2.50",
+        "customer_id": "user_entity_pk",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "menu_item": [
+      {
+        "id": "659d2f53-4100-4327-9723-2c8efde9fbae",
+        "name": "Margherita Pizza",
+        "description": "Freshly baked pizza with tomato sauce and mozzarella cheese",
+        "price": 92707,
+        "created_at": "2023-09-12T10:46:26.005Z",
+        "updated_at": "2023-09-12T17:02:56.791Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "6676dbca-3add-4c22-a352-2a4ff27aa9e3",
+        "name": "Chicken Alfredo Pasta",
+        "description": "Creamy pasta with grilled chicken and parmesan cheese",
+        "price": 7159,
+        "created_at": "2023-09-12T13:52:45.357Z",
+        "updated_at": "2023-09-13T03:37:56.887Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "774d8814-7568-4bec-a4a8-dad53f9be01c",
+        "name": "Grilled Salmon",
+        "description": "Grilled salmon served with roasted vegetables",
+        "price": 98385,
+        "created_at": "2023-09-12T10:22:43.371Z",
+        "updated_at": "2023-09-12T14:50:42.937Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "9e0e714e-8252-451f-9fa7-0547cbafe5aa",
+        "name": "Cheeseburger",
+        "description": "Juicy beef patty with melted cheese and crispy bacon",
+        "price": 18996,
+        "created_at": "2023-09-12T07:14:46.677Z",
+        "updated_at": "2023-09-12T18:08:10.655Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1340053a-6af2-4d18-865b-2071108b87c8",
+        "name": "Caesar Salad",
+        "description": "Fresh romaine lettuce with croutons and Caesar dressing",
+        "price": 89121,
+        "created_at": "2023-09-13T04:19:59.743Z",
+        "updated_at": "2023-09-12T08:00:31.018Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "32272c7c-40d3-4f1b-b057-4ee9cb93602a",
+        "quantity": 39955,
+        "price": 42998,
+        "created_at": "2023-09-12T07:45:25.986Z",
+        "updated_at": "2023-09-13T06:44:26.910Z",
+        "menu_item_id": "6676dbca-3add-4c22-a352-2a4ff27aa9e3",
+        "order_id": "e1ddf045-c960-404a-ad46-cc80f29231b1"
+      },
+      {
+        "id": "eaf40cf5-a617-4f25-a36a-e5d48268ad88",
+        "quantity": 3510,
+        "price": 55307,
+        "created_at": "2023-09-13T00:17:42.732Z",
+        "updated_at": "2023-09-13T00:25:10.006Z",
+        "menu_item_id": "6676dbca-3add-4c22-a352-2a4ff27aa9e3",
+        "order_id": "7eb2d01f-1cdc-49be-a619-433d003f0791"
+      },
+      {
+        "id": "b673feff-4ecf-4691-a4c3-61d86ad259b4",
+        "quantity": 80151,
+        "price": 60058,
+        "created_at": "2023-09-12T09:57:35.046Z",
+        "updated_at": "2023-09-13T06:43:57.903Z",
+        "menu_item_id": "6676dbca-3add-4c22-a352-2a4ff27aa9e3",
+        "order_id": "3f04baa9-3656-4188-8774-464ec273a991"
+      },
+      {
+        "id": "1b8656b0-68a7-4d42-83f5-e615a61c4a04",
+        "quantity": 3310,
+        "price": 37060,
+        "created_at": "2023-09-13T00:41:39.370Z",
+        "updated_at": "2023-09-12T22:46:15.547Z",
+        "menu_item_id": "6676dbca-3add-4c22-a352-2a4ff27aa9e3",
+        "order_id": "764398b6-312f-4c68-86fd-eaacc6e5c533"
+      },
+      {
+        "id": "527e6f0d-ea51-4772-9a35-e1dbbdf0f5fa",
+        "quantity": 25991,
+        "price": 30625,
+        "created_at": "2023-09-13T01:08:10.846Z",
+        "updated_at": "2023-09-12T08:50:37.785Z",
+        "menu_item_id": "1340053a-6af2-4d18-865b-2071108b87c8",
+        "order_id": "95912337-8d02-433b-8c1e-c488c1568397"
+      }
+    ],
+    "delivery_personnel": [
+      {
+        "id": "5f4fe176-1963-4eed-9722-32c0a079bb1e",
+        "vehicle_type": "Car",
+        "license_number": "AB123456",
+        "availability_status": "Available",
+        "created_at": "2023-09-12T20:19:08.928Z",
+        "updated_at": "2023-09-12T21:40:54.854Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d06268b5-ea5d-4ef9-9ace-535d00ef9ae0",
+        "vehicle_type": "Motorcycle",
+        "license_number": "CD654321",
+        "availability_status": "Unavailable",
+        "created_at": "2023-09-12T19:57:47.567Z",
+        "updated_at": "2023-09-12T07:40:29.824Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07c91e31-813f-4d92-87c9-2ecb4debe2d0",
+        "vehicle_type": "Bicycle",
+        "license_number": "EF987654",
+        "availability_status": "On Break",
+        "created_at": "2023-09-12T16:01:40.008Z",
+        "updated_at": "2023-09-12T18:57:28.594Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e0a1011-9d4f-4e2e-bdc9-ce8951f826da",
+        "vehicle_type": "Scooter",
+        "license_number": "GH123456",
+        "availability_status": "On Delivery",
+        "created_at": "2023-09-12T14:22:25.956Z",
+        "updated_at": "2023-09-12T22:09:24.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4614d91-60fa-455a-a719-9db4dba3a8d7",
+        "vehicle_type": "Van",
+        "license_number": "IJ654321",
+        "availability_status": "Off Duty",
+        "created_at": "2023-09-12T07:27:49.173Z",
+        "updated_at": "2023-09-12T18:50:53.869Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a90dcd9d-b793-49b4-90af-52fe4931f907",
+        "email": "Bo81@yahoo.com",
+        "firstName": "Virginie",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34060975",
+        "tenantId": null
+      },
+      {
+        "reference": "34d286ef-fe0e-4746-b6e0-9c8d383684e0",
+        "email": "Morris.Fritsch69@gmail.com",
+        "firstName": "Humberto",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1061.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7362fa24-e322-44f5-9410-64cb8cfadc22",
+        "email": "Renee.McLaughlin36@gmail.com",
+        "firstName": "Judy",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29361844",
+        "tenantId": null
+      },
+      {
+        "reference": "1d2bf6dd-6884-4b6b-8a4f-56b2a911c5a7",
+        "email": "Kari.Wehner1@gmail.com",
+        "firstName": "Anne",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/48.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "65488523-1812-4daa-a378-68f9a983d52a",
+        "email": "Queen23@gmail.com",
+        "firstName": "Zander",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/867.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
